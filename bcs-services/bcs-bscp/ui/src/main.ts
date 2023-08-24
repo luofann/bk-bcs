@@ -11,6 +11,8 @@ import cursor from './components/permission/cursor'
 import './components/permission/cursor.css'
 import auth from './common/auth'
 
+console.log('a')
+
 auth().then(() => {
   const app = createApp(App)
   app.directive('bkTooltips', bkTooltips)
