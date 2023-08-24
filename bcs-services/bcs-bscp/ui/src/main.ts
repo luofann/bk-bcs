@@ -10,7 +10,7 @@ import i18n from './i18n/index';
 import cursor from './components/permission/cursor'
 import './components/permission/cursor.css'
 import auth from './common/auth'
-
+console.log('fannluo')
 auth().then(() => {
   const app = createApp(App)
   app.directive('bkTooltips', bkTooltips)
